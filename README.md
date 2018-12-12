@@ -44,6 +44,9 @@ application.secret_key = renderToken(32)
 ```
 - Enabled the site with `sudo a2ensite items-catalog`
 
+### Postgres Configuration
+In the folder /var/www/flaskApp/items-catalog/db_script is a SQL script to run against the postgres database to create the Database and user specified in the flask app.
+
 
 ## Software Insatalled
 ### redis 
